@@ -1,0 +1,26 @@
+     <div className={styles.cardX}>
+        <div className={styles.centered}>
+          <table>
+            <tr>
+              <td>Appointment No:</td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td>Patient Name:</td>
+              <td>{aptLoaded.name}</td>
+            </tr>
+            <tr>
+              <td>Appointment Type:</td>
+              <td>{aptLoaded.type}</td>
+            </tr>
+            <tr>
+              <td>Date:</td>
+              <td>{aptLoaded.date}</td>
+            </tr>
+            <tr>
+              <td>Status:</td>
+              <td>{aptLoaded.status}</td>
+            </tr>
+          </table>
+        </div>
+      </div>
